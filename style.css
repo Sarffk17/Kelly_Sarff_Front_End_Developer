@@ -75,6 +75,18 @@
   .about-paragraphs p {
     margin: 10px;
   }
+
+  @media (max-width: 576px) {
+    p h2 {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 576px) {
+    img {
+      display: none;
+    }
+  }
   
   .email-link {
     display: flex;
