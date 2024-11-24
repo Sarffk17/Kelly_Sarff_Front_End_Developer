@@ -2,11 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Kelly Sarff - Front End Developer - Homepage</title>
-    <meta name="description" content="Please review Kelly Sarff's profile and learn more about some of the projects She had worked on.">
-  </head>
+    <meta
+      name="description"
+      content="Please check out Kelly Sarff's front-end developer profile. You will find her projects and contact information"
+    />
+    <title>Kelly Sarff - Front-end developer </title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,12 +20,12 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Kelly Sarff</a>
+        <a class="navbar-brand" href="/" title="Homepage">Kelly Sarff</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,35 +38,57 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav>">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link acive" aria-current="page" title="homepage" href="index.html"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                tilte="Homepage"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="About Kelly Sarff" href="about.html">About me</a>
+              <a class="nav-link" href="/about.html" title="About Kelly Sarff"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Contact Kelly Sarff" href="about.html#contact">Contact me</a>
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Kelly Sarff's Contact Information"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h2>👋 Hi I am</h2>
-    <h1>Kelly Sarff</h1>
-    <h3>Front-end developer, based in Lake Mary, Florida - United States</h3>
+    <h2 class="text-center">👋 Hi I am</h2>
+    <h1 class="text-center">Kelly Sarff</h1>
+    <h3 class="text-center">🇫🇷 Front-end developer, based in Lary Mary, FL of the United States</h3>
     <div class="navigation-links mb-5">
-      <a href="about.html#contact" title="Kelly Sarff's contact information" class="primary-link">Contact me</a>
-      <a href="about.html" title="About Kelly Sarff" class="secondary-link">About me</a>
+      <a
+        href="/about.html#contact"
+        class="primary-link"
+        title="Contact Kelly Sarff"
+        >Contact me</a
+      >
+      <a href="/about.html" class="secondary-link" title="About Kelly Sarff"
+        >About me</a
+      >
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6">
-          <img src="images/yoga.png" alt="yoga app screenshot" class="img-fluid rounded" />
+        <div class="col-sm-6">
+          <img
+            src="/images/yoga.png"
+            alt="Yoga project "
+            class="img-fluid rounded d-none d-sm-block"
+          />
         </div>
-        <div class="col-6">
+        <div class="col-sm-6">
           <h2 class="mb-3">Yoga app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -73,12 +97,14 @@
             explicabo eum dolore.
           </p>
           <div class="mt-5">
-            <a href="#" title="yoga page redirect button" class="primary-link">Launch Yoga App</a>
+            <a href="#" class="primary-link project-link" title="Yoga project"
+              >Launch Yoga App</a
+            >
           </div>
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-6">
+        <div class="col-sm-6">
           <h2 class="mb-3">Weather app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -87,18 +113,31 @@
             explicabo eum dolore.
           </p>
           <div class="mt-5">
-            <a href="#" title="weather page redirect button" class="primary-link">Launch Weather App</a>
+            <a
+              href="#"
+              class="primary-link project-link"
+              title="Weather project"
+              >Launch Weather App</a
+            >
           </div>
         </div>
-        <div class="col-6">
-          <img src="images/weather.png" alt="weather app screenshot" class="img-fluid rounded" />
+        <div class="col-sm-6">
+          <img
+            src="/images/weather.png"
+            class="img-fluid rounded d-none d-sm-block"
+            alt="Weather project"
+          />
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-6">
-          <img src="images/Yogurt.png" title="yogut page screenshot" class="img-fluid rounded" />
+        <div class="col-sm-6">
+          <img
+            src="/images/yogurt.png"
+            class="img-fluid rounded d-none d-sm-block"
+            alt="Yogurt project"
+          />
         </div>
-        <div class="col-6">
+        <div class="col-sm-6">
           <h2 class="mb-3">Yogurt app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -107,7 +146,12 @@
             explicabo eum dolore.
           </p>
           <div class="mt-5">
-            <a href="#" title="Yogurt app redirect" class="primary-link">Launch Yogurt App</a>
+            <a
+              href="#"
+              class="primary-link project-link"
+              title="Weather project"
+              >Launch Yogurt App</a
+            >
           </div>
         </div>
       </div>

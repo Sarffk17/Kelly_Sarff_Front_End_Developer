@@ -5,18 +5,19 @@
   }
   
   body {
-    margin-top: 100px;
+    margin: 100px 0;
   }
   
   h1,
   h2,
   h3 {
-    text-align: center;
     margin: 0;
+    text-align: center;
   }
   
   h1 {
     font-size: 96px;
+
   }
   
   h2 {
@@ -52,7 +53,7 @@
     box-shadow: var(--box-shadow);
     color: white;
   }
-
+  
   .primary-link:hover {
     color: white;
   }
@@ -66,15 +67,6 @@
     border: 1px solid var(--primary-color);
   }
   
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .img {
-    vertical-align: middle;
-  }
-
   .homepage-link {
     color: var(--primary-color);
     text-align: center;
@@ -100,7 +92,7 @@
   .email-link:hover {
     text-decoration: underline;
   }
-
+  
   @media (max-width: 576px) {
     h1 {
       font-size: 48px;
